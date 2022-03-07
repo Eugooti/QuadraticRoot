@@ -16,7 +16,9 @@ public class Main {
         System.out.print("C: ");
         c=scanner.nextDouble();
 
-        System.out.println(roots(a, b, c));
+        Point point=roots(a, b, c);
+
+        System.out.println("The roots are: \n X1="+point.x+" \n X2= "+point.y);
 
     }
 
